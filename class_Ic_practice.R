@@ -66,14 +66,15 @@ raw_data$smoker <- NULL
 clean_data <- copy_data[, -6]
 
 ####2. Comments####
-# A hashtag before any writings, create a comment and it's very useful
-# to clarify what're you gonna code.
-#R doesn't consider  the comment as a code, so it won't be run and stored in the environment
+# A hashtag before any writings, create a comment and it's very usefulto clarify what're you gonna code.
+#R doesn't consider  the comment as a code, so it won't be run or stored in the environment
 
 #####New Heading####
 ## Four hashtags before and after any comment create a heading
 
+#To be continued#
 save.image("Shahenda_Dawoud_class_Ic_Practice.RData")
+
 
 
 
